@@ -1,0 +1,143 @@
+.container{
+    display: flex;	
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+    height: auto;
+    background-color: rgb(231, 231, 231);
+}
+.topo{
+    margin-top: 2vh;
+    display: flex;	
+	flex-wrap: wrap;
+	flex-direction: row;
+    width: 98%;
+    height: auto;
+}
+.cont3{
+    width: 60%;
+    height: auto;
+}
+.imgtopo{
+    width: 100%;
+    height: auto;   
+}
+.cont4{
+    margin-left: 1%;
+    width: 39%;
+    height: auto;
+}
+.arg{
+    margin-left: 18%;
+    width: 45%;
+    height: 24vh;
+}
+.arg78{
+    width: 100%;
+    height: auto;
+}
+.arg86{
+    margin-top: 2.4vh;
+    width: 100%;
+    height: auto;
+}
+
+.base{
+    margin-top: 2vh;
+    display: flex;	
+	flex-wrap: wrap;
+	flex-direction: row;
+    width: 98%;
+    height: auto;
+}
+.cont7{
+    width: 20%;
+    height: auto;
+}
+.propaganda{
+    width: 99%;
+    height: auto;
+}
+.cont8{
+    width: 80%;
+    height: auto;
+}
+.cont9{
+    width: 100%;
+    height: auto;
+}
+.cont9 p{
+    margin-left: 3%;
+    margin-right: 8%;
+    font-size: larger;
+}
+.cont10{
+    display: flex;	
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    height: auto;
+}
+.bandeira{
+    display: flex;	
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+    margin-left: 1%;
+    margin-bottom: 2vh;
+    width: 32%;
+    height: auto;
+}
+.imgbandeira{
+    width: 100%;
+    height: 32vh;
+}
+.bandeira p{
+    margin: 2% 2vh;
+}
+.bandeira p strong{
+    font-size: large;
+}
+.abertura{
+    font-size: larger;
+}
+.rodape{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(102,0,48);
+}
+.rodape p{
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width: 760px){
+    .cont7{
+        display: none;
+    }
+    .cont3, .base, .cont8, .cont9{
+        width: 100%;
+    }
+    .cont4{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .arg, .bandeira{
+        width: 46%;
+        height: auto;
+        margin-left: 2%;
+    }
+    .arg86, .arg78{
+        height: 35vh;
+    }
+    .arg78{
+        margin-top: 2vh;
+    }
+}
